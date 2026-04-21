@@ -1,0 +1,727 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
+
+/* -------------------- HEADER -------------------- */
+.nav1 {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+.nav2 {
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.navbars {
+  display: flex;
+  gap: 2rem;
+  padding: 15px;
+}
+
+.navbars a {
+  color: black;
+  font-size: 20px;
+}
+
+.eden {
+  font-size: 2rem;
+  color: black;
+}
+
+/* -------------------- MAIN -------------------- */
+main {
+  background-color: rgb(227, 225, 225);
+}
+/* ---------------------- Section 1 ---------------------- */
+.list {
+  padding: 10px 20px;
+  display: flex;
+  gap: 2rem;
+}
+
+.list a {
+  color: rgb(41, 38, 38);
+}
+
+/*---------------------- Section 2 ---------------------- */
+.Meilleur {
+  padding: 10px 20px;
+  background: url(assets/images/back.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.Meilleurs {
+  margin-left: 14rem;
+  padding-top: 4rem;
+}
+span {
+  background-color: red;
+  display: inline-block;
+  width: 5rem;
+  padding: 5px;
+  color: white;
+}
+
+.ore {
+  font-size: clamp(25px, 5vw, 60px);
+}
+
+.Meilleurs p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: clamp(5px, 2vw, 20px);
+}
+
+.acheter {
+  background-color: #600ffe;
+  display: inline-block;
+  width: 10rem;
+  height: 2.5rem;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.acheter:hover {
+  background-color: black;
+}
+
+/*---------------------- Section 3 ----------------------*/
+.offre {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  line-height: 35px;
+  padding-bottom: 2rem;
+}
+
+.offres {
+  background: url(assets/images/backgrounds.avif);
+  background-repeat: no-repeat;
+  padding: 2rem;
+  height: 25rem;
+  color: white;
+}
+
+.offres p {
+  font-size: clamp(5px, 2vw, 25px);
+  padding-bottom: 1rem;
+}
+
+.offres h3 {
+  font-size: clamp(15px, 2vw, 35px);
+}
+
+.offres a {
+  background-color: white;
+  display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  padding: -4px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.offres a:hover {
+  background-color: #e12317;
+  color: white;
+  border: 1px solid white;
+}
+
+.offres1 {
+  background: url(assets/images/backgroundss.avif);
+  background-repeat: no-repeat;
+  padding: 2rem;
+  color: white;
+}
+
+.offres1 p {
+  font-size: clamp(5px, 2vw, 25px);
+  padding-bottom: 1rem;
+}
+
+.offres1 h3 {
+  font-size: clamp(15px, 2vw, 35px);
+}
+
+.offres1 a {
+  background-color: white;
+  display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.offres1 a:hover {
+  background-color: #6f0fff69;
+  border: 1px solid white;
+  color: white;
+}
+
+/*------------------------ Section 4 ------------------------*/
+.liv {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+.livraison {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.livraison h3 {
+  font-size: 2rem;
+}
+
+/*------------------------ Section 5 ------------------------*/
+.principale {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+
+.princip {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.princips {
+  display: flex;
+}
+
+.ventes {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.pre {
+  border: 1px solid whitesmoke;
+  width: 18rem;
+  height: 23rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.images {
+  width: 70%;
+  margin-left: 2rem;
+}
+
+.images:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.meil {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.prix {
+  color: #600ffe;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin-top: -1rem;
+}
+
+.imagess {
+  width: 40%;
+  margin-left: 6rem;
+}
+
+.imagess:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.imagesss {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.imagesss:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.meils {
+  padding: 15px;
+  font-size: 16px;
+  margin-top: -2rem;
+}
+
+.images1 {
+  width: 70%;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.images1:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.achet {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.achetes {
+  background-color: #600ffe;
+  color: white;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.achetes:hover {
+  background-color: black;
+  color: white;
+}
+
+/*------------------------ Section 6 ------------------------*/
+.voir {
+  padding: 10px 20px;
+  padding-bottom: 1rem;
+}
+
+.voirs {
+  background-color: white;
+}
+
+.voirs h1 {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.galerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 10rem;
+  padding: 15px;
+}
+
+.galeries {
+  border-radius: 100%;
+  width: 50%;
+}
+
+.galeries:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.galeri h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*------------------------ Section 7 ------------------------*/
+.economie {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+.promo {
+  background-color: white;
+  height: 23rem;
+}
+
+.promos {
+  width: 60%;
+  float: left;
+}
+
+.pri {
+  background-color: red;
+  width: 5%;
+  padding: 10px;
+  border-radius: 150rem;
+  text-align: center;
+}
+
+strong {
+  font-size: 5rem;
+}
+
+.jusq {
+  padding: 3rem;
+  padding: auto;
+  text-align: center;
+}
+
+.jusq p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.jusque {
+  text-align: center;
+}
+
+.jusque a {
+  background-color: #600ffe;
+  display: inline-block;
+  width: 10rem;
+  height: 2.5rem;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.jusque a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*------------------------ Section 8 ------------------------*/
+.gals {
+  padding: 10px 20px;
+}
+
+.gal {
+  background-color: white;
+}
+.gal h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.gale {
+  padding: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+.galp {
+  padding: 15px;
+}
+
+.galse {
+  border: 1px solid whitesmoke;
+}
+
+.gales {
+  width: 70%;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.gales:hover {
+  transform: scale(1.02) rotate(0.02deg);
+}
+
+.tout {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.tout a {
+  background-color: #600ffe;
+  display: inline-block;
+  width: 10rem;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  height: 2.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.tout a:hover {
+  background-color: black;
+}
+
+/*------------------------ Section 9 ------------------------*/
+.droness {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+
+.drones {
+  background-color: white;
+  height: 26.8rem;
+}
+
+.drone {
+  width: 70%;
+  float: right;
+}
+
+.ortho {
+  padding: 35px;
+  line-height: 40px;
+}
+
+.pas {
+  background-color: #e12317;
+  color: white;
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+}
+
+.ortho h1 {
+  padding-bottom: 1rem;
+}
+
+strong {
+  color: #600ffe;
+  font-size: 3rem;
+}
+
+.ortho p {
+  padding-bottom: 1rem;
+}
+
+.ortho a {
+  background-color: #600ffe;
+  color: white;
+  display: inline-block;
+  width: 10rem;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.ortho a:hover {
+  background-color: black;
+}
+
+/*------------------------ Section 10 ------------------------*/
+.mark {
+  padding: 10px 20px;
+  margin-bottom: 2rem;
+}
+
+.mark h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.marq {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.marqs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.marque {
+  border: 1px solid whitesmoke;
+  width: 20rem;
+}
+
+/*------------------------ Section 11 ------------------------*/
+.new {
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 2rem;
+}
+
+.news {
+  background-color: #600ffe;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.letters {
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+}
+
+.mails {
+  margin-left: -35rem;
+}
+
+input {
+  width: 35rem;
+  height: 3rem;
+  padding: 20px;
+  border: none;
+  border-radius: 2rem;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  width: 10rem;
+  height: 3.1rem;
+  border: none;
+  border-radius: 25px;
+  margin-left: -2.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9871e7;
+  color: black;
+}
+
+/*------------------------ Section 12 ------------------------*/
+.aide {
+  padding: 10px 20px;
+  color: white;
+  /* border-block-start: 1rem; */
+}
+
+.aides {
+  background-color: black;
+  height: 27.8rem;
+}
+
+.aides img {
+  float: right;
+}
+.besoin {
+  line-height: 35px;
+  margin-left: 15rem;
+  padding-top: 8rem;
+}
+
+.besoin p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.besoin a {
+  background-color: #600ffe;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  font-size: 18px;
+  width: 10rem;
+  height: 3.1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.besoin a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*------------------------ footer ------------------------*/
+footer {
+  padding: 10px 20px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.adres {
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.acheters {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  font-size: 25px;
+}
+
+.acheters a {
+  color: black;
+}
+
+.nous {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.nous p {
+  font-size: 20px;
+}
+
+.logo img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 3%;
+  margin: 2rem;
+}
+
+/*------------------------ Responsive ------------------------*/
+@media (min-width: 320px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023) {
+}
+
+@media (max-width: 1024);{
+  
+}
