@@ -26,6 +26,8 @@ body {
   gap: 2rem;
 }
 
+
+
 .navbar a {
   color: white;
 }
@@ -724,4 +726,82 @@ footer {
 
 @media (max-width: 1024);{
   
+}
+
+
+/*------------------------ VOIR.HTML c'est une parti de la site qui est dans tous le button voir------------------------*/
+.tousse {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.tous {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.contenaire {
+  display: flex;
+  justify-content: space-between;
+}
+
+select {
+  width: 10rem;
+  height: 3rem;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid ;
+}
+
+option {
+  background-color: white;
+}
+
+.galeris {
+  padding-top: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  width: 95rem;
+  margin-left: 21.5rem;
+  margin-top: -.4rem;
+}
+
+.galres{
+  border: 1px solid rgb(223, 217, 217);
+}
+
+.galess {
+  width: 70%;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.galess:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.proms p {
+  padding: 15px;
+}
+
+.plus {
+  margin-left: 60rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.plus a {
+  background-color: #600ffe;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  border-radius: 25px;
 }
