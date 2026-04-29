@@ -58,6 +58,13 @@ body {
   color: black;
 }
 
+.edens {
+  margin-left: -70rem;
+  padding: 10px;
+  width: 2rem;
+  color: black;
+}
+
 /* -------------------- MAIN -------------------- */
 main {
   background-color: rgb(227, 225, 225);
@@ -804,4 +811,151 @@ option {
   height: 3rem;
   border: none;
   border-radius: 25px;
+}
+
+/* ---------------------------- CENTRE.HTML ---------------------------- */
+.conts {
+  padding: 10px 20px;
+}
+
+.cont {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+.cont h1 {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+}
+
+.cont hr {
+  width: 100rem;
+  margin-left: 10rem;
+}
+
+.aider p {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 18px;
+  
+}
+
+.base {
+  margin-left: 20rem;
+  display: flex;
+  gap: 25rem;
+  padding-top: 4rem;
+  line-height: 35px;
+}
+
+.bas {
+  padding-bottom: 2rem;
+  
+}
+
+.bas h2 {
+  padding-bottom: 2rem;
+}
+
+.bases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.bases label {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.bases input {
+  width: 25rem;
+  border: 1 solid black;
+}
+
+.msg {
+  margin-left: -27rem;
+  padding-top: 1.5rem;
+}
+
+.msg textarea {
+  display: inline-block;
+  width: 52rem;
+  height: 5rem;
+  padding: 15px;
+  padding-bottom: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: 1px solid rgb(0, 149, 255);
+  border-radius: 15px;
+}
+
+.btns {
+  background-color: #600ffe;
+  color: white;
+  width: 20rem;
+  height: 3rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+}
+
+.btns:hover {
+  background-color: black;
+}
+
+/*---------------------- Section 2 ----------------------*/
+.tech {
+  background-color: white;
+    text-align: center;
+}
+
+.tech h1 {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  margin-left: auto;
+}
+
+.chose {
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  gap: 10rem;
+}
+
+.inp {
+  margin-top: -1rem;
+}
+
+.inp input {
+  width: 20rem;
+  padding: 15px;
+}
+
+.faq {
+  flex-direction: column;
+  margin-left: 36rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 5rem;
+  line-height: 20px;
+}
+
+.gen {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fqs {
+  border: 1px solid rgba(211, 208, 208, 0.899);
+  width: 50rem;
+  padding: 15px;
+  margin-bottom: 1rem;
+}
+
+.fqs p {
+  padding-bottom: 10px;
 }
