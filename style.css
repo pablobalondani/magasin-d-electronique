@@ -1061,3 +1061,52 @@ option {
 .mas p {
   padding: 15px;
 }
+
+/* -------------------------- DRONES ET CAMERAS.HTML --------------------------  */
+.cam {
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.cams select {
+  appearance: base-select;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid;
+  background-color: white;
+  width: 15rem;
+}
+
+.cams h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.dro {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dros {
+  margin-left: 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.dos {
+  border: 1px solid whitesmoke;
+}
+
+.dos img {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.dos img:hover{
+  transform: scale(1.01) rotate(0.01deg);
+}
