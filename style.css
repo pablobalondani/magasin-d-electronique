@@ -932,6 +932,7 @@ option {
 .inp input {
   width: 20rem;
   padding: 15px;
+  border: 2px solid black;
 }
 
 .faq {
@@ -958,4 +959,105 @@ option {
 
 .fqs p {
   padding-bottom: 10px;
+}
+
+/* -------------------------- TERME.HTML --------------------------  */
+.term {
+  background-color: white;
+  text-align: center;
+}
+
+.term h1 {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.term hr {
+  width: 90rem;
+  margin-left: 15rem;
+}
+
+.client {
+  padding-top: 4rem;
+  line-height: 25px;
+}
+
+.client h2 {
+  padding-bottom: 2rem;
+}
+
+.client p {
+  padding-bottom: 2rem;
+}
+
+/* -------------------------- MENTION.HTML --------------------------  */
+.mention {
+  background-color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+.mention h1 {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.mention hr {
+  width: 90rem;
+  margin-left: 10rem;
+}
+
+.legal {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* -------------------------- TECH.HTML --------------------------  */
+.techs {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.techs h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.tec {
+  display: flex;
+  justify-content: space-between;
+  /* padding-bottom: 5rem; */
+}
+
+.tec select {
+  appearance: base-select;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid;
+  background-color: white;
+  width: 15rem;
+}
+
+.fil h2 {
+  padding-bottom: 1.5rem;
+}
+
+.ima {
+  margin-left: 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.imas {
+  border: 1px solid whitesmoke;
+}
+
+.ima img:hover {
+  transform: scale(1.01) rotate(0.01deg);
+}
+
+.mas p {
+  padding: 15px;
 }
